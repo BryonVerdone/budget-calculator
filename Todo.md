@@ -1,0 +1,4 @@
+-input monthly income
+-Display remaining income
+-add list of expenses
+-subtract expense item from monthly income and display balance
