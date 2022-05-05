@@ -1,4 +1,6 @@
--input monthly income
--Display remaining income
--add list of expenses
--subtract expense item from monthly income and display balance
+- [] input monthly income
+- [] Display remaining income
+- [] add list of expenses
+- [] subtract expense item from monthly income and display balance
+- [] add contributors to project
+- [x] add index, about, calculator, investing HTML pages
