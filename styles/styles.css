@@ -110,3 +110,13 @@ input {
 .input {
   margin-bottom: 0.5rem;
 }
+
+#submit {
+  text-decoration: none;
+  color: black;
+  border: 1px solid black;
+  padding: 0.5em;
+  border-radius: 10px;
+  margin-top: 1em;
+  display: inline-block;
+}
