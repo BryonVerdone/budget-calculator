@@ -3,8 +3,8 @@
   --main-text-color: black;
 
   /* box shadows */
-  --light-box-shadow: rgba(0,0,0,0.3);
-  --minimal-box-shadow: rgba(0,0,0,0.1)
+  --light-box-shadow: rgba(0, 0, 0, 0.3);
+  --minimal-box-shadow: rgba(0, 0, 0, 0.1);
 }
 
 * {
@@ -23,28 +23,26 @@
   align-items: center;
   justify-content: space-between;
   box-shadow: 0 0 15px 8px var(--light-box-shadow);
-  color: var(--main-text-color)
+  color: var(--main-text-color);
 }
 
 #navbar ul {
   list-style-type: none;
-  display: flex
+  display: flex;
 }
 
 #navbar ul li {
   margin-right: 15px;
 }
 
-#navbar ul li a{
+#navbar ul li a {
   text-decoration: none;
-  color: var(--main-text-color)
+  color: var(--main-text-color);
 }
-#navbar ul li a:hover{
+#navbar ul li a:hover {
   border-bottom: 1px solid var(--main-text-color);
   opacity: 0.7;
 }
-
-
 
 /* ================== */
 /* == about us css == */
@@ -67,8 +65,10 @@
   object-fit: cover;
 }
 
-.single-contributor h2, .single-contributor p, .single-contributor span a {
-  padding: 5px; 
+.single-contributor h2,
+.single-contributor p,
+.single-contributor span a {
+  padding: 5px;
 }
 
 .single-contributor span {
@@ -80,4 +80,33 @@
 }
 .single-contributor span a:hover {
   opacity: 0.6;
+}
+
+/* ================== */
+/* ==== calc  css === */
+/* ================== */
+
+.calculator,
+.displayMoney {
+  border: 1px solid black;
+  width: 400px;
+  max-width: 80%;
+  margin: 5rem 20%;
+  padding: 1rem;
+}
+
+.calculator h2 {
+  text-align: center;
+}
+
+label {
+  width: 250px;
+  display: inline-block;
+}
+input {
+  display: inline-block;
+}
+
+.input {
+  margin-bottom: 0.5rem;
 }

@@ -21,9 +21,33 @@
       </ul>
     </nav>
 
-    <h1>calculator.html</h1>
+    <section class="calculator">
+      <h2>Type in your Income and Expenses and click Submit</h2>
+      <form action="">
+        <section class="input">
+          <label for="income">Income: </label>
+          <input class="income" type="text" id="income" />
+        </section>
+        <h3>Expenses</h3>
+        <section class="input">
+          <label for="housing">Housing: </label>
+          <input class="expense" type="text" id="housing" />
+        </section>
+        <section class="input">
+          <label for="electric">Electric: </label>
+          <input class="expense" type="text" id="electric" />
+        </section>
+        <section class="input">
+          <label for="water">Water: </label>
+          <input class="expense" type="text" id="water" />
+        </section>
+        <button id="submit">Submit</button>
+      </form>
+    </section>
+    <section class="displayMoney">
+      <h2>Money Left: <span class="moneyRemaining"></span></h2>
+    </section>
 
-
-    <script src="./app.js"></script>
+    <script src="../js/app.js"></script>
   </body>
 </html>
